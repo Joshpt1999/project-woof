@@ -1,1 +1,48 @@
 
+body {
+	
+	background-image: url(../img/Boxo.jpg);
+}
+
+p{
+	font-family: 'Baloo Chettan', cursive;
+}
+.about-me-wrap {
+   /* background-color: #34fed6;*/
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+    border: 10px solid black;
+}
+.about-me-wrap h3{margin:0;text-align: left
+;}
+#profile-wrap{
+	width: 40%;
+	margin-right: 10%;
+	
+}
+
+#bio-wrap {
+	width: 100%;
+	}
+
+.clear {
+
+	clear:both;
+}
+h1{
+	border-bottom: 5px solid #000;
+}
+
+@media only screen and (max-width: 767px){
+	#profile-wrap{
+		width:100%!important;
+		float: none!important;
+		margin-right: 0!important;
+	}
+	#bio-wrap{
+		width:100%!important;
+		float: none!important;
+		margin-top: 50px!important;
+	
+}
